@@ -1,0 +1,21 @@
+{
+  "appId": "com.kisandoctor.app",
+  "appName": "Kisan Doctor",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#1B4332",
+      "androidSplashResourceName": "splash",
+      "showSpinner": false
+    }
+  }
+}
